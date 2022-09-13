@@ -24,11 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a(*5c)*8*gza*x93l=ur822^&@7+0#h^+x^%+ci_87auib=1f&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://vaibhavback-end.azurewebsites.net']
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:4200',
+    'https://vaibhavfrontend.azurewebsites.net/',
 ]
 
 
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'inventory',
 
 ]
 
@@ -155,3 +154,6 @@ LOGIN_REDIRECT_URL = 'factories-home'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+CSRF_TRUSTED_ORIGINS = [
+'https://vaibhavback-end.azurewebsites.net'
+]
