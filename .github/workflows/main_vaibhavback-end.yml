@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'vaibhavBack-end'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86C225E0CED44B1585830BB5743D6BE0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_238E3E84C9FF430DA1FAFCC4AE7F0363 }}
