@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'inventory.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': 'vaibhavdb',
         'HOST': 'assessmentserverget.database.windows.net',
         #'PORT': '1433',
