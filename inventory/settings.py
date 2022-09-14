@@ -101,7 +101,7 @@ DATABASES = {
         'USER': 'dbadmin',
         'PASSWORD': 'Admin123',
         'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
+            #'driver': 'ODBC Driver 18 for SQL Server',
         },
     }
 }
