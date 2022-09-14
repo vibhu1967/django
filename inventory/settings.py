@@ -96,7 +96,7 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'vaibhavdb',
         'HOST': 'assessmentserverget.database.windows.net',
-        'PORT': '1433',
+        #'PORT': '1433',
         'Trusted_Connection': 'yes',
         'USER': 'dbadmin',
         'PASSWORD': 'Admin123',
